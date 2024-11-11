@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Coles Insight</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav_rail">
+        <div class="container">
+          <div class="user-dp">
+            <img src="assets/images/user-dp.jpg" alt="User DP" />
+          </div>
+        </div>
+        <div class="nav_items">
+          <div class="icon-container" onclick="this.classList.add('clicked')">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+              <path
+                d="M20.4062 39.9375V28.2188H28.2188V39.9375H37.9844V24.3125H43.8438L24.3125 6.73438L4.78125 24.3125H10.6406V39.9375H20.4062Z"
+              />
+            </svg>
+            <div class="icon-label">Home</div>
+          </div>
+          <div class="icon-container" onclick="this.classList.add('clicked')">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+              <path
+                d="M38.873 16.7695C38.7803 16.5576 38.6507 16.3638 38.4902 16.1973L26.7715 4.47852C26.6049 4.31803 26.4111 4.18841 26.1992 4.0957C26.1406 4.06836 26.0781 4.05273 26.0156 4.03125C25.8521 3.97584 25.682 3.94234 25.5098 3.93164C25.4687 3.92773 25.4316 3.90625 25.3906 3.90625H11.7188C9.56445 3.90625 7.8125 5.6582 7.8125 7.8125V39.0625C7.8125 41.2168 9.56445 42.9688 11.7188 42.9688H35.1562C37.3105 42.9688 39.0625 41.2168 39.0625 39.0625V17.5781C39.0625 17.5371 39.041 17.5 39.0371 17.457C39.0264 17.2848 38.9929 17.1146 38.9375 16.9512C38.9193 16.8887 38.8978 16.8281 38.873 16.7695ZM32.3945 15.625H27.3438V10.5742L32.3945 15.625ZM11.7188 39.0625V7.8125H23.4375V17.5781C23.4375 18.0961 23.6433 18.5929 24.0096 18.9592C24.3758 19.3255 24.8726 19.5312 25.3906 19.5312H35.1562L35.1602 39.0625H11.7188Z"
+              />
+              <path
+                d="M15.625 23.4375H31.25V27.3438H15.625V23.4375ZM15.625 31.25H31.25V35.1562H15.625V31.25ZM15.625 15.625H19.5313V19.5312H15.625V15.625Z"
+              />
+            </svg>
+            <div class="icon-label">Home</div>
+          </div>
+          <div class="icon-container" onclick="this.classList.add('clicked')">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+              <path
+                d="M31.4941 25.6348L39.5508 17.5781M21.2402 19.7754L27.0996 25.6348M7.32422 29.2969L16.8457 19.7754"
+                stroke="#1E1E1E"
+                stroke-width="1.95312"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M41.748 17.5781C42.9616 17.5781 43.9453 16.5944 43.9453 15.3809C43.9453 14.1673 42.9616 13.1836 41.748 13.1836C40.5345 13.1836 39.5508 14.1673 39.5508 15.3809C39.5508 16.5944 40.5345 17.5781 41.748 17.5781Z"
+                stroke="#1E1E1E"
+                stroke-width="1.95312"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M29.2969 30.0293C30.5104 30.0293 31.4941 29.0455 31.4941 27.832C31.4941 26.6185 30.5104 25.6348 29.2969 25.6348C28.0834 25.6348 27.0996 26.6185 27.0996 27.832C27.0996 29.0455 28.0834 30.0293 29.2969 30.0293Z"
+                stroke="#1E1E1E"
+                stroke-width="1.95312"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.043 19.7754C20.2565 19.7754 21.2402 18.7916 21.2402 17.5781C21.2402 16.3646 20.2565 15.3809 19.043 15.3809C17.8295 15.3809 16.8457 16.3646 16.8457 17.5781C16.8457 18.7916 17.8295 19.7754 19.043 19.7754Z"
+                stroke="#1E1E1E"
+                stroke-width="1.95312"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M5.12695 33.6914C6.34047 33.6914 7.32422 32.7077 7.32422 31.4941C7.32422 30.2806 6.34047 29.2969 5.12695 29.2969C3.91344 29.2969 2.92969 30.2806 2.92969 31.4941C2.92969 32.7077 3.91344 33.6914 5.12695 33.6914Z"
+                stroke="#1E1E1E"
+                stroke-width="1.95312"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <div class="icon-label">Home</div>
+          </div>
+        </div>
+      </div>
+      <div class="section-right">
+        <div class="img_container"><img src="assets/images/Coles-unveils-new-look-Broadway-store-in-Sydney-team-shot.webp" alt="coles-employees"></div>
+        <div class="text-container">
+          <h1>Hello Lily,</h1>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
